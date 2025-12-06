@@ -2,13 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src='./index.js'></script>
-    <link href='./index.css' rel='stylesheet'></link>
-    <title>Document</title>
+    <title>ANDREY GREBENIK PORTFOLIO</title>
+    <link href='./index.css' rel='stylesheet'>
 </head>
 <body>
-    <canvas width="2" height="2"></canvas>
+<div class="layout-grid">
+    <header>
+        <marquee scrollamount="8" style="font-size: 10px; color: #00ff99;">
+            *** SYSTEM READY *** WELCOME TO MY PORTFOLIO *** CHECK OUT MY LATEST STUFF BELOW ***
+        </marquee>
+        <h1>Andrey Grebenik</h1>
+        <div style="font-size: 10pt; letter-spacing: 2px;">PROGRAMMER // SOFTWARE ENGINEER</div>
+    </header>
+    <aside>
+        <img src="self.png" class="pfp">
+        <p style="color: #ff00cc; font-size: 0.8rem;">● ONLINE</p>
+        <br>
+        <p style="font-size: 0.7rem; color: #666; text-align: center;">:: MY LINKS ::</p>
+        <nav>
+            <a href="#" class="nav-btn">HOME</a>
+            <a href="https://github.com/agrebenik" class="nav-btn">GITHUB</a>
+            <a href="https://www.linkedin.com/in/andreygrebenik/" class="nav-btn">LINKEDIN</a>
+        </nav>
+        <br>
+    
+        <div style="font-size: 0.7rem; color: #666; text-align: center;">
+            <p>:: OTHERS! ::</p>
+            <img class="btn-88x31 lnk-88x31" src="./buttons/html_learn_it_today.gif" onclick="window.location.href='https://www.w3schools.com/html/';">
+            <img class="btn-88x31" src="./buttons/css.gif">
+            <img class="btn-88x31" src="./buttons/B_internetexplorer.gif">
+            <img class="btn-88x31 lnk-88x31" src="./buttons/github.gif" onclick="window.location.href='https://github.com/agrebenik';">
+            <img class="btn-88x31 lnk-88x31" src="./buttons/paintnet.gif" onclick="window.location.href='https://www.getpaint.net/index.html';">
+            <img class="btn-88x31 lnk-88x31" src="./buttons/wikipedia2.gif" onclick="window.location.href='https://www.wikipedia.org/';">
+        </div>
+        <br>
+    </aside>
+    <main>
+        <section id="intro">
+            <h2>> ABOUT ME</h2>
+            <p>Welcome! My name is Andrey.</p>
+            <p>I am a motivated and passionate Computer Science student with hands-on experience in production software development from internships at Microsoft and AppEsteem.</p>
+            <p>I am Fascinated with data as the language of the modern world.</p>
+        </section>
+        <section id="skills">
+            <h2>> WHAT I'M GOOD AT</h2>
+            <p style="font-size: 0.9em; margin-bottom: 5px;">LANGUAGES</p>
+            <ul class="coursework">
+                <li>C++</li>
+                <li>C#</li>
+                <li>C</li>
+                <li>Rust</li>
+                <li>R</li>
+                <li>Python</li>
+                <li>...</li>
+            </ul>
+            <p style="font-size: 0.9em; margin-bottom: 5px;">TOOLS / OTHER</p>
+            <ul class="coursework">
+                <li>Azure DevOps</li>
+                <li>Visual Studio</li>
+                <li>Git</li>
+                <li>CUDA</li>
+                <li>Kusto</li>
+                <li>...</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>> WHAT I KNOW</h2>
+            <div class="edu-container">
+                <p style="margin-top: 0; font-size: 1.1em; color: #fff;">
+                    <strong>B.S. Computer Science | Minor: Data Science</strong>
+                </p>
+                <p><em>Seattle Pacific University (2019 - 2026)</em></p>
+                <hr style="border: 0; border-top: 1px dotted #555;">
+                <p style="font-size: 0.9em; margin-bottom: 5px;">RELEVANT COURSE MODULES:</p>
+                <ul class="coursework">
+                    <li>Linear Algebra</li>
+                    <li>Intro to Data Science</li>
+                    <li>Discrete Mathematics</li>
+                    <li>Calculus I - III</li>
+                    <li>Data Structures I and II</li>
+                    <li>Operating Systems Programming</li>
+                    <li>Computer Organization & Assembly</li>
+                    <li>Applications Programming</li>
+                    <li>Systems Design</li>
+                    <li>CyberSecurity Systems</li>
+                    <li>Net-Centric Programming</li>
+                    <li>Data Base Management</li>
+
+                </ul>
+            </div>
+        </section>
+        <br>
+        <section id="experience">
+            <h2>> WHAT I'VE BEEN UP TO</h2>
+            <p>
+                <span style="color: #ff00cc;">@ Microsoft</span>
+                <strong> Intern Software Engineer</strong>
+                <span> [Jun 2022 - Sep 2022]</span>
+            </p>
+            <ul style="font-size: 0.9em;">
+                <li>Implemented and deployed in production a web service for tracking Service Fabric (SFRP) cluster rollout statistics. </li>
+                <li>Created a Kusto dashboard to visualize statistics as tables and graphs which improved Service Fabric team’s visibility over SFRP cluster runtime rollouts. </li>
+            </ul>
+            <br>
+            <p>
+                <span style="color: #ff00cc;">@ AppEsteem</span>
+                <strong> Intern Software Developer</strong>
+                <span> [Jun 2017 - Jun 2022]</span>
+            </p>
+            <ul style="font-size: 0.9em;">
+                <li>Developed and shipped a Chrome Extension to protect users from malware and ads. Built using NodeJS and ReactJS, 20000+ user base. <a href="https://blur.live">https://blur.live</a>. </li>
+                <li>Led sprint and task/build pipeline management via Azure DevOps. </li>
+            </ul>
+            <br>
+            <p>
+                <span style="color: #ff00cc;">(Project)</span>
+                <strong> Exploring Double Pendulum Motion </strong>
+                <span> [Sep 2025 - Dec 2025]</span>
+            </p>
+            <ul style="font-size: 0.9em;">
+                <li>Developed and shipped a Chrome Extension to protect users from malware and ads. Built using NodeJS and ReactJS, 20000+ user base. <a href="https://blur.live">https://blur.live</a>. </li>
+                <li>Created a Kusto dashboard to visualize statistics as tables and graphs which improved Service Fabric team’s visibility over SFRP cluster runtime rollouts. </li>
+            </ul>
+            <br>
+            <p>
+                <span style="color: #ff00cc;">@ SPU</span>
+                <strong> Computer Science Lab Assistant</strong>
+                <span> [Sep 2021 - Sep 2025]</span>
+            </p>
+            <ul style="font-size: 0.9em;">
+                <li>Clarified abstract computer science concepts by breaking them down into practical, real‑world coding examples</li>
+                <li>Provided individualized tutoring support, balancing one‑on‑one guidance with group instruction</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            [ <a href="#">COPYRIGHT 2025</a> ] • [ <a href="https://github.com/agrebenik/agrebenik.github.io">SOURCE CODE</a> ] • [ <a href="mailto:agrebenik@live.com">EMAIL</a> ]
+        </p>
+        <p style="color: #444; font-size: 9px;">EOF // SYSTEM HALTED</p>
+        
+        <div class="scanner-line"></div>
+    </footer>
+</div>
 </body>
 </html>
